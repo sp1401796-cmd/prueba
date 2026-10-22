@@ -20,6 +20,9 @@ int main(void){
     printf("\n[2].- AU \n");
     printf("\n[3].- ADO \n ");
     scanf("%i",&a);
+
+
+    printf("si las son menos de 20 personas se respeta el precio como si fueran 20 personas");
     
 
 
@@ -56,9 +59,9 @@ int main(void){
 
     printf("      tu boleto           ");
 
-    printf("\ncosto total $%2.f",ct);
-    printf("\ncosto por persona $%2.f",cp);
-    printf("\ncosto por kilometro$%2.f",precio);
+    printf("\ncosto total $%f",ct);
+    printf("\ncosto por persona $%f",cp);
+    printf("\ncosto por kilometro$%f",precio);
     printf("\nnumero de personas  %d",np );
 
 
