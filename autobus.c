@@ -49,14 +49,14 @@ int main(void){
 
 
     }
-    ct=km*a;
+    ct=km*a*np;
     cp=ct/np;
 
    
 
     printf("      tu boleto           ");
 
-    printf("\ncosto totales $%2.f",ct);
+    printf("\ncosto total $%2.f",ct);
     printf("\ncosto por persona $%2.f",cp);
     printf("\ncosto por kilometro$%2.f",precio);
     printf("\nnumero de personas  %d",np );
